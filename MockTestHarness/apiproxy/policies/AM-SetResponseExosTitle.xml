@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-SetResponseExosTitle">
+    <DisplayName>AM-SetResponseExosTitle</DisplayName>
+    <Properties/>
+    <Set>
+        <Payload contentType="application/json">
+	        {
+                "trackingId": "d4fe2e6f4d034e7c9a1c71360bdca93f",
+                "model": "list",
+                "total": 1,
+                "reports": [
+                    {
+                        "decisionType": "Traditional",
+                        "model": "report",
+                        "created": "2018-08-29T13:50:52.3786624+00:00",
+                        "reportId": "0196bdb1044f430190641c1e775b62f0",
+                        "reportType": "TitleDecision"
+                    }
+                ]
+            }
+	    </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>

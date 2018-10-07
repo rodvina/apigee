@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-SetResponseExosAppraisal">
+    <DisplayName>AM-SetResponseExosAppraisal</DisplayName>
+    <Properties/>
+    <Set>
+        <Payload contentType="application/json">
+            {
+                "isEXOSMarket": true,
+                "IsApptIn48HoursAvailable": false
+            }
+	    </Payload>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>

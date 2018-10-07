@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-SetResponseExosAppraisal" version="SHA-512:04ac05921dc2668901c00d0837e2ca0be2c847426a73388b9d73a5cc97aca0cfc7c0f0a31c253cb4b6804d887bf253083b8866517c62ab988147ff2de801c6b2"/>
+        <VersionInfo resourceName="AM-SetResponseExosTitle" version="SHA-512:03a10af29441ce1c30d4f305a380982c51a74051d73c68cb4990d668c1e6495379de730fe644a0ce0f8f8ff664b63436b855d18f30ee13168285b43ec82384eb"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:f55a55f7d62408d6ee5d3540bf938d013b15b2869dca6860d2a27b93c806795a916747a6a9499654356cf309c4c77b4af7ecb6b0d6fb6dda624b39b9e2ec5fb8"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>

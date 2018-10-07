@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="MockTestHarness">
+    <Basepaths>/th</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1538948270596</CreatedAt>
+    <CreatedBy>rodvina@gmail.com</CreatedBy>
+    <Description>Mock proxy intended to serve as the target route on a proxy chain to serve test dummy data</Description>
+    <DisplayName>MockTestHarness</DisplayName>
+    <LastModifiedAt>1538948798304</LastModifiedAt>
+    <LastModifiedBy>rodvina@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:a6f25ee1aa89c58a717d1882da165bd09a09294dc89be27b22bbe9dc9307ca566008e5fbc6c7beb195e359365ebd217711c5c5e10ce42ca5f8322cbdd299e53f</ManifestVersion>
+    <Policies>
+        <Policy>AM-SetResponseExosAppraisal</Policy>
+        <Policy>AM-SetResponseExosTitle</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
